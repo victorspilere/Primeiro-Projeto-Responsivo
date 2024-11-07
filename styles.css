@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.header {
+    margin: 44px 0px 144px 76px;
+}
+
+.header a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 24px;
+    color: #989D9C;
+    cursor: pointer;
+    margin-right: 23px;
+}
+
+.header button {
+    background: #665AE1;
+    border: none;
+    border-radius: 20px;
+    width: 130px;
+    height: 41px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+}
+
+.img-logo {
+    width: 568px;
+    margin-left: 125px;
+}
+
+.text-content {
+    margin-right: 125px;
+    margin-left: 80px;
+}
+
+.text-content h1 {
+    color: #515151;
+    font-size: 100px;
+    font-weight: 900;
+}
+
+.text-content h3 {
+    color: #515151;
+    font-size: 58px;
+    font-weight: 500;
+}
+
+.text-content p {
+    color: #515151;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.text-content button {
+    cursor: pointer;
+    background: #ADFF00;
+    margin-top: 40px;
+    color: #515151;
+    font-size: 28px;
+    font-weight: 700;
+    padding: 10px 46px;
+    border-radius: 40px;
+    border: none;
+    box-shadow: 0px 2px 16px -5px rgba(0,0,0,0.79);
+}
+
+@media (max-width: 1400px) {
+    .header {
+        display: none;
+    }
+
+    .content {
+        display: block;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .img-logo {
+        width: 70%;
+        padding: 0;
+        margin: 10% auto;
+        display: block;
+    }
+
+    .text-content {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: auto;
+        display: block;
+        margin: 0 0;
+        text-align: center;
+    }
+
+    .text-content h1 {
+        font-size: 60px;
+        margin-top: 20px;
+    }
+
+    .text-content h3 {
+        font-size: 32px;
+    }
+
+    .text-content p {
+        font-size: 14px;
+        max-width: 90%;
+        display: block;
+        margin: 30px auto 0;
+    }
+}
